@@ -17,3 +17,24 @@
 .game-grid > img {
     justify-self: right;
 }
+
+@media (max-width: 600px) {
+    .game-grid {
+        grid-template-columns: auto;
+    }
+
+    .game-grid > a {
+        justify-self: center;
+        text-align: center;
+    }
+    
+    .game-grid > img {
+        justify-self: center;
+    }
+}
+
+@media (max-width: 300px) {
+    .game-grid > img {
+        display: none;
+    }
+}
