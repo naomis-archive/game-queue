@@ -1,0 +1,18 @@
+.sched {
+    width: 100%;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 10%;
+}
+
+.game-grid > a {
+    justify-self: left;
+}
+
+.game-grid > img {
+    justify-self: right;
+}

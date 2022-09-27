@@ -1,0 +1,58 @@
+<div class="content">
+  <div class="nes-container with-title is-centered is-rounded">
+    <h1>Naomi's Stream Queue</h1>
+    <p>
+      Hello~! This page lists the games I intend to stream, in the order I
+      intend to stream them.
+    </p>
+    <p>
+      Want to come vibe with me?
+      <a
+        href="https://twitch.tv/naomilgbt"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Watch my stream!</a
+      >
+    </p>
+    <h2>Schedule</h2>
+    <p>
+      Want to do a collab stream?
+      <a
+        href="https://calendly.com/nhcarrigan/game-sesh"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Submit a request!</a
+      >
+    </p>
+    <img
+      class="sched"
+      src="https://cdn.nhcarrigan.com/schedule.png"
+      alt="Stream Schedule"
+      width="750"
+    />
+    <h2>Game Queue</h2>
+    <p>
+      Want to suggest a game?
+      <a
+        href="https://chat.nhcarrigan.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Join our chat</a
+      >
+      and let us know!
+    </p>
+    <div
+      *ngFor="let game of queue"
+      class="game-grid nes-container with-title is-centered is-rounded is-dark"
+    >
+      <a
+        href="{{ game.url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="light-link"
+        ><p>{{ game.name }}</p></a
+      >
+      <img src="{{ game.cover }}" alt="{{ game.name }}" width="200" />
+    </div>
+  </div>
+</div>
