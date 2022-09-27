@@ -11,6 +11,7 @@
 
 .game-grid > a {
     justify-self: left;
+    text-align: left;
 }
 
 .game-grid > img {
