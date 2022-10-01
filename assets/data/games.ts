@@ -8,7 +8,7 @@ export const games: Game[] = [
       'https://cdn.akamai.steamstatic.com/steam/apps/850000/header.jpg?t=1628583956',
   },
   {
-    name: 'Nina Aquil: Legal Eagle',
+    name: 'Nina Aquila: Legal Eagle',
     url: 'https://store.steampowered.com/app/1547290/Nina_Aquila_Legal_Eagle_Season_One/',
     cover:
       'https://cdn.akamai.steamstatic.com/steam/apps/1547290/header.jpg?t=1659466757',
@@ -48,5 +48,17 @@ export const games: Game[] = [
     url: 'https://store.steampowered.com/app/1062140/Garden_Story/',
     cover:
       'https://cdn.akamai.steamstatic.com/steam/apps/1062140/header.jpg?t=1657642005',
+  },
+  {
+    name: 'Danganronpa V3: Killing Harmony',
+    url: 'https://store.steampowered.com/app/567640/Danganronpa_V3_Killing_Harmony/',
+    cover:
+      'https://cdn.akamai.steamstatic.com/steam/apps/567640/header.jpg?t=1654081483',
+  },
+  {
+    name: 'Soaring Machinariae',
+    url: 'https://store.steampowered.com/app/1616030/Soaring_Machinariae/',
+    cover:
+      'https://cdn.akamai.steamstatic.com/steam/apps/1616030/header.jpg?t=1654506116',
   },
 ];
