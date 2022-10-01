@@ -8,7 +8,7 @@ export const games: Game[] = [
       'https://cdn.akamai.steamstatic.com/steam/apps/850000/header.jpg?t=1628583956',
   },
   {
-    name: 'Nina Aquil: Legal Eagle',
+    name: 'Nina Aquila: Legal Eagle',
     url: 'https://store.steampowered.com/app/1547290/Nina_Aquila_Legal_Eagle_Season_One/',
     cover:
       'https://cdn.akamai.steamstatic.com/steam/apps/1547290/header.jpg?t=1659466757',
