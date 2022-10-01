@@ -49,4 +49,16 @@ export const games: Game[] = [
     cover:
       'https://cdn.akamai.steamstatic.com/steam/apps/1062140/header.jpg?t=1657642005',
   },
+  {
+    name: 'Danganronpa V3: Killing Harmony',
+    url: 'https://store.steampowered.com/app/567640/Danganronpa_V3_Killing_Harmony/',
+    cover:
+      'https://cdn.akamai.steamstatic.com/steam/apps/567640/header.jpg?t=1654081483',
+  },
+  {
+    name: 'Soaring Machinariae',
+    url: 'https://store.steampowered.com/app/1616030/Soaring_Machinariae/',
+    cover:
+      'https://cdn.akamai.steamstatic.com/steam/apps/1616030/header.jpg?t=1654506116',
+  },
 ];
