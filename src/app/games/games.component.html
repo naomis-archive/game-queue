@@ -43,6 +43,11 @@
       >
       and let us know!
     </p>
+    <p>
+      Hours to complete are estimated based on reviews and other player reports
+      and are not a guarantee. They are here to give you an idea of when your
+      favourite game will make it to the top.
+    </p>
     <div
       *ngFor="let game of queue"
       class="game-grid nes-container with-title is-centered is-rounded is-dark"
@@ -54,6 +59,7 @@
         class="light-link"
         ><p>{{ game.name }}</p></a
       >
+      <p class="time">{{ game.playtime }} hours</p>
       <img src="{{ game.cover }}" alt="{{ game.name }}" width="200" />
     </div>
   </div>
