@@ -4,17 +4,26 @@
 
 .game-grid {
     display: grid;
-    grid-template-columns: auto auto;
     align-items: center;
     column-gap: 10%;
+    grid-template-areas: "title img" "time img";
 }
 
 .game-grid > a {
+    font-size: 20px;
+    grid-area: title;
+    justify-self: left;
+    text-align: left;
+}
+
+.game-grid > .time {
+    grid-area: time;
     justify-self: left;
     text-align: left;
 }
 
 .game-grid > img {
+    grid-area: img;
     justify-self: right;
 }
 
