@@ -20,9 +20,34 @@ export const games: Game[] = [
     playtime: 6,
   },
   {
+    name: 'The Last Campfire',
+    url: 'https://store.steampowered.com/app/990630/The_Last_Campfire/',
+    cover: 'https://cdn.akamai.steamstatic.com/steam/apps/990630/header.jpg',
+    playtime: 6,
+  },
+  {
+    name: 'Spirit of the North',
+    url: 'https://store.steampowered.com/app/1213700/Spirit_of_the_North/',
+    cover: 'https://cdn.akamai.steamstatic.com/steam/apps/1213700/header.jpg',
+    playtime: 5,
+  },
+  {
+    name: 'Kena: Bridge of Spirits',
+    url: 'https://store.steampowered.com/app/1954200/Kena_Bridge_of_Spirits',
+    cover: 'https://cdn.akamai.steamstatic.com/steam/apps/1954200/header.jpg',
+    playtime: 10,
+  },
+  {
     name: 'Tuneria',
     url: 'https://store.steampowered.com/app/1268700/Tuneria/',
     cover: 'https://cdn.akamai.steamstatic.com/steam/apps/1268700/header.jpg',
+    playtime: 8,
+  },
+  {
+    name: 'Rakuen',
+    url: 'https://store.steampowered.com/app/559210/Rakuen/',
+    cover:
+      'https://cdn.cloudflare.steamstatic.com/steam/apps/559210/header.jpg',
     playtime: 8,
   },
   {
@@ -44,6 +69,12 @@ export const games: Game[] = [
     playtime: 52,
   },
   {
+    name: 'Tunic',
+    url: 'https://store.steampowered.com/app/553420/TUNIC/',
+    cover: 'https://cdn.akamai.steamstatic.com/steam/apps/553420/header.jpg',
+    playtime: 12,
+  },
+  {
     name: "Ocean's Heart",
     url: 'https://store.steampowered.com/app/1393750/Oceans_Heart/',
     cover: 'https://cdn.akamai.steamstatic.com/steam/apps/1393750/header.jpg',
@@ -61,6 +92,12 @@ export const games: Game[] = [
     url: 'https://store.steampowered.com/app/1616030/Soaring_Machinariae/',
     cover: 'https://cdn.akamai.steamstatic.com/steam/apps/1616030/header.jpg',
     playtime: 12,
+  },
+  {
+    name: 'Hylics',
+    url: 'https://store.steampowered.com/app/397740/Hylics/',
+    cover: 'https://cdn.akamai.steamstatic.com/steam/apps/397740/header.jpg',
+    playtime: 4,
   },
   {
     name: 'Omori',
@@ -157,6 +194,12 @@ export const games: Game[] = [
     url: 'https://store.steampowered.com/app/206060/',
     cover: 'https://cdn.akamai.steamstatic.com/steam/apps/206060/header.jpg',
     playtime: 64,
+  },
+  {
+    name: 'Cult of the Lamb',
+    url: 'https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/',
+    cover: 'https://cdn.akamai.steamstatic.com/steam/apps/1313140/header.jpg',
+    playtime: 14,
   },
   {
     name: 'Avadaon: The Black Fortress',
