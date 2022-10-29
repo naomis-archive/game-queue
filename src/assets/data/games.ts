@@ -2,18 +2,6 @@ import { Game } from '../interfaces/Game';
 
 export const games: Game[] = [
   {
-    name: 'Noel: The Mortal Fate',
-    url: 'https://store.steampowered.com/app/850000/Noel_the_Mortal_Fate_S17/',
-    cover: 'https://cdn.akamai.steamstatic.com/steam/apps/850000/header.jpg',
-    playtime: 12,
-  },
-  {
-    name: 'Nina Aquila: Legal Eagle',
-    url: 'https://store.steampowered.com/app/1547290/Nina_Aquila_Legal_Eagle_Season_One/',
-    cover: 'https://cdn.akamai.steamstatic.com/steam/apps/1547290/header.jpg',
-    playtime: 8,
-  },
-  {
     name: 'Here Comes Niko!',
     url: 'https://store.steampowered.com/app/925950/Here_Comes_Niko/',
     cover: 'https://cdn.akamai.steamstatic.com/steam/apps/925950/header.jpg',
