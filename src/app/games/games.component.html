@@ -21,7 +21,7 @@
         href="https://calendly.com/nhcarrigan/game-sesh"
         target="_blank"
         rel="noopener noreferrer"
-        >Submit a request!</a
+        >Join my Discord and we can coordinate!</a
       >
     </p>
     <a href="https://cdn.nhcarrigan.com/schedule.png" target="_blank">
@@ -39,9 +39,8 @@
         href="https://chat.nhcarrigan.com"
         target="_blank"
         rel="noopener noreferrer"
-        >Join our chat</a
+        >Pop in Discord and let us know!</a
       >
-      and let us know!
     </p>
     <p>
       Hours to complete are estimated based on reviews and other player reports
@@ -59,7 +58,8 @@
         class="light-link"
         ><p>{{ game.name }}</p></a
       >
-      <p class="time">{{ game.playtime }} hours</p>
+      <p class="time" *ngIf="game.playtime">{{ game.playtime }} hours</p>
+      <p class="time" *ngIf="!game.playtime">Unknown Length</p>
       <img src="{{ game.cover }}" alt="{{ game.name }}" width="200" />
     </div>
   </div>
