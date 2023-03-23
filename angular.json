@@ -107,8 +107,8 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://strim.naomi.lgbt",
-            "cname": "strim.naomi.lgbt",
+            "baseHref": "https://games.naomi.lgbt",
+            "cname": "games.naomi.lgbt",
             "name": "Naomi Carrigan",
             "email": "nhcarrigan@gmail.com"
           }
